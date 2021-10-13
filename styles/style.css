@@ -32,7 +32,7 @@ body{
 
 
 
-main{
+.container-main-page{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,4 +86,77 @@ h1{
     padding-top: 10px;
     line-height: 32px;
     font-family: 'Reem Kufi', sans-serif;
+}
+
+
+
+/* Google page */
+
+.container-gg, .map{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.img-top-google, .img-map{
+    width: 40%;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+ .verif-boutton{
+    width: 40%;
+}
+.boussole{
+    width: 90%;
+}
+
+.container-footer h3 {
+    font-family: 'Reem Kufi', sans-serif;
+    color:rgba(99, 23, 16, 1) ;
+    padding-bottom: 15px;
+}
+
+.container-footer h2{
+    font-family: 'Aclonica', sans-serif;
+    color:rgba(64, 79, 94, 1);
+}
+
+.container-footer p{
+    font-family: 'Reem Kufi', sans-serif;
+    padding-top: 20px;
+}
+.container-footer hr {
+    background-color: rgba(99, 23, 16, 1);
+    border: none;
+    width: 1px;
+    height: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+.Num1{
+    padding-left: 100px;
+}
+.Num2{
+    text-align: center;
+    max-width: 300px;
+}
+.Num3{
+    padding-right: 100px;
+}
+
+.Num1,.Num2, .Num3{
+    max-height: 200px;
+}
+
+.description-gg{
+    width: 300px;
+    line-height: 30px;
+}
+.verif-boutton{
+    padding-top: 40px;
 }
