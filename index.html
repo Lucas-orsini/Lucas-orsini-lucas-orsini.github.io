@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fr.allfont.net/allfont.css?fonts=1-harrington-m" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
     <title>Time Thief</title>
 </head>
+
 <body>
-  
-            <header>
-                <nav>
 
-                </nav>
-                <h1>Test</h1>
-            </header>
-            <main>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href=""><img class="img-nav" src="assets/image/Fichier 1@2x.png" alt=""></a>
+                <a href="">Google Maps</a>
+                <a href="">Alphabet</a>
+                <a href="">Forum</a>
+            </div>
+            <div class="hr">
+                <svg width="1291" height="36" viewBox="0 0 1291 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="1290.5" height="36" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0" transform="scale(0.000387447 0.0138889)" />
+                        </pattern>
+                        <image id="image0" width="2581" height="72"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
 
-            </main>
-            <footer>
+            </div>
+        </nav>
 
-            </footer>
+    </header>
+    <main>
+        <div class="left">
+            <img src="assets/image/Forme.png" alt="">
+            <div class="button-start-div">
+                <a href="">
+                    <img class="button-start"src="assets/image/Start_Button.png" alt="">       
+                </a>
+            </div>
+        </div>
 
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25165671.js"></script>
-<!-- End of HubSpot Embed Code -->
+        <div class="perso">
+            <img src="assets/image/vintage-man-5815920_1280.png" alt="vintage-man-5815920_1280">     
+        </div>
+
+        <div class="text">
+            <div class="titre">
+            <h1>Bienvenue ! <br>
+                Dans Time Thief
+            </h1>
+            <div class="image-droite">
+                <img class="forme-droite" src="assets/image/Forme.png" alt="forme-droite">
+            </div>
+        </div>
+            <div class="desc">
+                <p class="description">Lorem ipsum dolor sit amet. Vel molestias necessitatibus vero quia ab quia aspernatur a quidem optio sit facilis autem. Et corrupti aliquid sed ullam reiciendis non dolores voluptas. </p>
+            </div>
+        </div>
+      
+
+
+      
+       
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25165671.js"></script>
+    <!-- End of HubSpot Embed Code -->
 </body>
+
 </html>
