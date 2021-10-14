@@ -8,7 +8,7 @@ function openPopUp() {
 
   function verifCode(){
     var valueInput = document.getElementById('code').value;
-    if (valueInput === 'code') {
+    if (valueInput === 'GV88+2G') {
         var x = document.getElementById("pid");
             x.innerHTML = "Bravo vous avez trouvé le code pour géolocaliser James Titor";
     }

@@ -159,6 +159,7 @@ h1{
 }
 .verif-boutton{
     padding-top: 40px;
+    cursor: pointer;
 }
 
 /* Alphabet */
