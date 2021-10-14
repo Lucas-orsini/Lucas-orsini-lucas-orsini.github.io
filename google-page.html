@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <script src="scripts/index.js"></script>
     <title>Time Thief</title>
 </head>
 
@@ -23,8 +24,8 @@
             <div class="nav-container">
                 <a href="index.html"><img class="img-nav" src="assets/image/Fichier 1@2x.png" alt=""></a>
                 <a href="google-page.html">Google Maps</a>
-                <a href="">Alphabet</a>
-                <a href="">Forum</a>
+                <a href="alphabet.html">Alphabet</a>
+                <a href="forum.html">Forum</a>
             </div>
             <div class="hr">
                 <svg width="1291" height="36" viewBox="0 0 1291 36" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -69,10 +70,27 @@
                 <h2>Verification</h2>
                 <p>Avez-vous déterminé sa position ? </p>
                 <div class="button-pos">
-                    <img class="verif-boutton" src="assets/image/Verif_Button.png" alt="Verif_Button">
+                    <img class="verif-boutton" src="assets/image/Verif_Button.png" alt="Verif_Button" onclick="openPopUp()">
                 </div>
             </div>
+         
         </div>
+        <div class="login-popup">
+            <div class="form-popup" id="popupForm">
+              <form class="form-container">
+                <h2>Validation du code</h2>
+                <label for="code">
+                <strong class="pos">Code GG Map</strong>
+                </label>
+             
+                <input type="text" id="code" placeholder="Votre code" name="code" value='' required>
+                <span id="pid"></span>
+                <input type="button"class="btn" onclick="verifCode()" name="Verifier" value="Verifier">
+                <button type="button" class="btn cancel" onclick="closePopUp()">Fermer</button>
+                
+              </form>
+            </div>
+          </div>
     </main>
 
     <!-- Start of HubSpot Embed Code -->

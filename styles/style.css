@@ -160,3 +160,110 @@ h1{
 .verif-boutton{
     padding-top: 40px;
 }
+
+/* Alphabet */
+
+
+
+.container-alphabet hr {
+    border: none;
+    width: 1200px;
+    height: 2px;
+   background-color: rgba(230, 192, 136, 1);
+   margin:auto; 
+   margin-top: 25px;
+}
+
+.top-alphabet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine-img{
+    width: 30%;
+    margin-right: 200px;
+}
+
+.top-alphabet h1 {
+    line-height: 72px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.small-title{
+    font-size: 40px;
+}
+
+.bottom{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.morse {
+    width: 50%;
+}
+
+/* popup */
+
+ /* Positionnez la forme Popup */
+ .login-popup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-family: 'Reem Kufi', sans-serif;
+    }
+    /* Masquez la forme Popup */
+    .form-popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top:30%;
+    transform: translate(-50%,30%);
+    border: 2px solid #666;
+    z-index: 9;
+    }
+    /* Styles pour le conteneur de la forme */
+    .form-container {
+    max-width: 300px;
+    padding: 50px;
+    background-color: rgba(230, 192, 136, 1)
+    }
+    /* Largeur complète pour les champs de saisie */
+    .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #eee;
+    }
+    /* Quand les entrées sont concentrées, faites quelque chose */
+    .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    }
+    /* Stylez le bouton de connexion */
+    .form-container .btn {
+    background-color: rgba(99, 23, 16, 1);
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:5px;
+    margin-top: 10px;
+    opacity: 0.85;
+    }
+    /* Stylez le bouton pour annuler */
+    .form-container .cancel {
+    background-color: rgba(64, 79, 94, 1);
+    }
+    /* Planez les effets pour les boutons */
+    .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+    }
+
+#pid{
+    color: rgb(131, 31, 21);
+}
