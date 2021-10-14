@@ -267,3 +267,99 @@ h1{
 #pid{
     color: rgb(131, 31, 21);
 }
+
+/* forum */
+
+.container-forum{
+    text-align: center;
+}
+.container-forum .top-hr{
+    border: none;
+    width: 1600px;
+    height: 2px;
+    background-color: rgba(99, 23, 16, 1);
+    margin:auto; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.top-forum{
+    background-color:rgba(230, 192, 136, 1);
+    width: 1600px;
+    margin: auto;
+    border-top: rgba(99, 23, 16, 1) 2px solid;
+}
+
+.top-forum h1 {
+    color:rgba(99, 23, 16, 1) ;
+    padding-top: 15px;
+    font-size: 78px;
+}
+
+.top-forum p{
+    background-color:rgba(99, 23, 16, 1);
+    color: white;
+    padding: 22px;
+}
+.top-forum .text-forum{
+    padding-top: 20px;
+}
+
+
+.bot-hr{
+    border: none;
+    width: 1600px;
+    height: 2px;
+    background-color: rgba(99, 23, 16, 1);
+    margin:auto; 
+    margin-top:5px;
+}
+
+.forum-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.card{
+    margin-top: 100px;
+    min-width: 266px;
+}
+.card1 {
+    background-color:rgba(230, 192, 136, 1) ;
+    max-height: 300px;
+    max-width: 300px;
+    border-bottom: rgba(99, 23, 16, 1) solid 20px;
+}
+.card2 {
+    background-color: rgba(245, 233, 206, 1);
+    max-height: 300px;
+    max-width: 300px;
+    border-bottom: rgba(99, 23, 16, 1) solid 20px;
+}
+
+.card3{
+    background-color: rgba(169, 96, 23, 1);
+    max-height: 300px;
+    max-width: 300px;
+    border-bottom: rgba(99, 23, 16, 1) solid 20px;
+}
+.card-img{
+    height: 200px;
+}
+
+.card h2 {
+    font-family: 'Aclonica', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.card span {
+    color: rgba(99, 23, 16, 1);
+}
+
+.card span, p {
+    font-family: 'Reem Kufi', sans-serif;
+}
